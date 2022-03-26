@@ -103,6 +103,7 @@ $ npm install
 $ export REDASH_HOST=https://your-redash-server.example.com
 $ export REDASH_API_KEY=your-redash-api-key
 $ export SLACK_BOT_TOKEN=your-slack-bot-token
+$ export SLACK_SIGNING_SECRET=your-slack-signing-secret
 $ node index.js
 ```
 
@@ -128,7 +129,7 @@ docker-compose is also provided.
 docker-compose up
 ```
 
-### Heroku (NOT TESTED!!!!!!!!)
+### Heroku
 
 You can easy to deploy redashbot to Heroku, just click following button.
 
